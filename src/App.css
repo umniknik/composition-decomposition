@@ -1,0 +1,247 @@
+.App {
+  text-align: left;
+  font-size: 20px;
+  margin-left: 20%;
+  margin-right: 15%;
+  margin-top: 30px;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.headermenu {
+  display: flex;
+  align-items: end;
+  color: #a6a6a6;
+}
+
+.headermenu div {
+  margin-right: 15px;
+}
+
+.headermenu a {
+  font-size: 25px;
+  color: #79a9e0;
+}
+
+.нeader-news div {
+  font-size: 22px;
+  margin: 10px 0 10px -35px;
+}
+
+.нeader-news img {
+  width: 25px;
+  margin-right: 10px;
+}
+
+.prices {
+  display: flex;
+}
+
+.prices div {
+  margin-right: 1%;
+}
+
+.pricename {
+  font-weight: 700;
+  margin-right: 11px;
+}
+
+.pricevalue {
+  margin-right: 7px;
+}
+
+.priceexc {
+  color: #a6a6a6;
+}
+
+.mainMenu {
+  display: flex;
+  color: #115eba;
+}
+
+.mainMenu a {
+  color: #2c83eb;
+  margin-right: 27px;
+  font-size: 31px;
+  font-weight: 400;
+}
+
+.search form {
+  display: flex;
+  flex-wrap: wrap-reverse;
+}
+
+.search span {
+  margin: 10px 0px 25px;
+  display: block;
+}
+
+.search img {
+  margin-left: -205px;
+}
+
+.search input {
+  width: 700px;
+  height: 55px;
+  border: 4px solid #ffd752;
+}
+
+
+.search button {
+  background-color: #ffd752;
+  border: none;
+  height: 65px;
+  width: 117px;
+  font-size: 28px;
+
+}
+
+.search button {
+  color: #000;
+  border-radius: 0em;
+  -moz-border-radius: 0em;
+  -webkit-border-radius: 0em;
+  background: #ffd752;
+  border: none;
+  text-shadow: -1px -1px 0px #ffd752;
+  position: relative;
+  margin: 0 auto;
+  margin-left: 0px;
+}
+
+.search button:after,
+.search button:before {
+  left: 100%;
+  top: 50%;
+  border: solid transparent;
+  content: " ";
+  height: 0;
+  width: 0;
+  position: absolute;
+}
+
+.search button:after {
+  border-color: rgba(136, 183, 213, 0);
+  border-left-color: #ffd752;
+  border-width: 30px;
+  margin-top: -31px;
+}
+
+.search button:before {
+  border-color: rgba(194, 225, 245, 0);
+  border-left-color: #ffd752;
+  border-width: 16px;
+  margin-top: -14px;
+}
+
+.search button:hover,
+.search button:focus,
+.search button:active,
+.search button.active,
+.open .dropdown-toggle.search button {
+  color: #fff;
+  outline: none;
+  background: #ffd752;
+  border-bottom: 2px solid #ffd752;
+}
+
+.search button:hover:after,
+.search button:focus:after,
+.search button:active:after,
+.search button.active:after {
+  border-left-color: #ffd752;
+}
+
+.search button:active,
+.search button.active,
+.open .dropdown-toggle.search button {
+  background: #ffd752;
+  color: #fff;
+  box-shadow: none;
+  -moz-box-shadow: none;
+  -webkit-box-shadow: none;
+}
+
+.search button:active:after,
+.search button.active:after,
+.open .dropdown-toggle.search button:after {
+  border-left-color: #ffd752;
+}
+
+.weather_wrp {
+  display: flex;
+}
+
+.weather_wrp div:nth-of-type(1) {
+  font-size: 45px;
+  font-weight: 500;
+}
+
+.weather_wrp div:nth-of-type(2) {
+  font-size: 24px;
+  display: flex;
+  font-weight: 400;
+  flex-direction: column;
+}
+
+h2 {
+  color: #2d60b8
+}
+
+.popular_wrp div span:nth-of-type(1) {
+  font-weight: 700;
+}
+
+.TvProgram_wrp div span:nth-of-type(3) {
+  color: #a6a6a6;
+}
+
+.topContent,
+.footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.active a {
+  color: #2d60b8;
+  font-weight: 600;
+}
